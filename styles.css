@@ -1,0 +1,100 @@
+body{
+    background-size: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section{
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    border: 2px;
+    border-color: black;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0px;
+    max-width: 804px;
+    margin-left: 178px;
+    margin-right: 178px;
+    padding-top: 12px;
+    letter-spacing: -0.02em;
+}
+
+h2{
+    margin: 0px;
+}
+
+hr{
+    text-align: left;
+    width: 100%;
+}
+
+.wrapper-w{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main_information_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color:transparent;
+    max-width: 950px;
+}
+
+.main_information_wrapper__picture{
+    height: 100%;
+    width: auto;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.main_information_wrapper_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: none;
+    border: none;
+    max-width: 500px;
+}
+
+.main_information_wrapper__content_info{
+    font-size: 26px;
+    background-color:aliceblue;
+    padding: 10px 15px 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    max-height: 75px;
+    border-radius: 20px;
+}
+
+.main_information_wrapper__content_info--bold{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_information_wrapper__content_info--underline{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.github_mark{
+    width: 48px;
+    height: 48px;
+    padding: 0px;
+}
