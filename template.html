@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Site </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body background="https://www.tretyakovgallery.ru/upload/iblock/426/426f3ff3b3a6a28ba6dd763f07074a43.jpg">
+    <header class="wrapper-w">
+        <h2>Подготовлено в качестве ДЗ по "Проектному семинару"</h2>
+    </header>
+    <section class="wrapper-w" id="section1">
+        <div>
+        <h1>Я в Github <img class="github_mark" src="./github-mark/github-mark.png" alt=""></h1>
+        </div>
+        <div class="main_information_wrapper">
+            <img class="main_information_wrapper__picture" src="{{profile_picture}}" alt="">
+            <div class="main_information_wrapper_content">
+                {% for main_info in profile_info %}
+                    <div class="main_information_wrapper__content_info">
+                    <h2 class="main_information_wrapper__content_info--bold">{{main_info}}</h2>
+                    <hr>
+                    <span class="main_information_wrapper__content_info--underline">{{profile_info[main_info]}}</span>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+</html>
